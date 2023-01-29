@@ -1,0 +1,14 @@
+com:
+  oauth0:
+    audience: tcs-exchanger
+spring:
+  datasource:
+    url: jdbc:h2:mem:///tcs
+    driver-class-name: org.h2.Driver
+    username: userName__
+    password: Pass_w0rd__
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://gamez123.us.auth0.com/
